@@ -19,4 +19,12 @@ func main() {
 	// fmt.Println("Value of actual pointer is: ", *ptr)
 	fmt.Println("Value of actual pointer is: ", myNumber)
 	
+	demo_pointers()
+}
+
+
+func demo_pointers(){
+   
+      
+
 }
