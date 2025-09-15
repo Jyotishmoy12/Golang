@@ -18,13 +18,17 @@ func main() {
 	*ptr = *ptr + 2
 	// fmt.Println("Value of actual pointer is: ", *ptr)
 	fmt.Println("Value of actual pointer is: ", myNumber)
-	
+
 	demo_pointers()
 }
 
+func demo_pointers() {
 
-func demo_pointers(){
-   
-      
+	i := 120
+	var ptr *int = &i // this is a pointer to int type
+
+	fmt.Println("Value of i is: ", i)
+	fmt.Println("Value of ptr is: ", ptr)
+	fmt.Println("Value of ptr is: ", *ptr)
 
 }
